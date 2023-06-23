@@ -1,4 +1,4 @@
-package programmers;
+package Hyeonpyo;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -45,7 +45,7 @@ public class P42890 {
 					keys.append(i);
 				}
 			}
-			
+
 			// StringBuilder 에다가 모든 String 을 넣고 돌면서
 			for (int i = 0; i < relation.length; i++) {
 				StringBuilder sb = new StringBuilder();
