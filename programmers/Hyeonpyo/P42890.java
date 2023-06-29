@@ -1,4 +1,4 @@
-package Hyeonpyo;
+package programmers.Hyeonpyo;
 
 import java.util.ArrayList;
 import java.util.HashSet;
