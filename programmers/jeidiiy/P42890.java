@@ -1,4 +1,4 @@
-package programmers.jeidiiy;
+package jeidiiy;
 
 import java.util.*;
 
