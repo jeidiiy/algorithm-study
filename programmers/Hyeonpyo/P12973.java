@@ -10,7 +10,9 @@ public class P12973 {
 	public static void main(String[] args) {
 		String s1 = "baabaa";//result 1
 		String s2 = "cdcd";//result 0
+		String s3 = "abcdda";//result 0
 
+		System.out.println(solution(s2));
 
 	}
 
@@ -23,6 +25,8 @@ public class P12973 {
 			} else {
 				if (stack.peek() == s.charAt(i)) {
 					stack.pop();
+				} else {
+					stack.push(s.charAt(i));
 				}
 			}
 		}
